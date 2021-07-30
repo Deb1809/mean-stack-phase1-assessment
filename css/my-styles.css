@@ -1,0 +1,20 @@
+.add-blog-btn{
+    margin-left: 42%;
+
+}
+
+button.btn.btn-lg {
+    margin-top: 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 4rem;
+}
+label{
+    margin: 10px 5px;
+}
+fieldset {
+    border: solid;
+    margin-top: 26px;
+    padding: 24px;
+}
