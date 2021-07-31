@@ -18,3 +18,7 @@ fieldset {
     margin-top: 26px;
     padding: 24px;
 }
+.card.mb-4 {
+    overflow: auto;
+    height: 42%;
+}

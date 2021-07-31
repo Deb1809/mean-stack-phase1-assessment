@@ -65,10 +65,9 @@ function create(){
     var article = document.getElementById("article").value;
     var image_url = document.getElementById("image_url").value;
  
-    var html1 =`<div class="card mb-4">'
-        <a href="#!"><img class="card-img-top" src="`+image_url+`" alt="..." / ></a>
+    var html1 =`<div class="card mb-4">
+        <a href="#!"><img class="card-img-top" src="`+image_url+`" alt="`+blog_title+`" / ></a>
         <div class="card-body">
-        <div class="small text-muted">January 1, 2021</div>
         <h2 class="card-title">`+blog_title+`</h2>
         <p class="card-text">`+article+`</p>
         </div>
